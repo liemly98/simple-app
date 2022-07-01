@@ -1,15 +1,22 @@
-import React, { useState } from "react";
-import { Routes, Route, Link } from "react-router-dom";
-import Page1 from "./pages/page1";
-import Page2 from "./pages/page2";
+import React from "react";
+import { Routes, Route } from "react-router-dom";
+import NavigationBar from "./components/NavigationBar";
+import Contact from "./pages/Contact";
+import Home from "./pages/Home";
+import Info from "./pages/Info";
 
 function App() {
   return (
     <div>
-      <Routes>
-        <Route path="/page1" element={<Page1 />} />
-        <Route path="/page2" element={<Page2 />} />
-      </Routes>
+      <NavigationBar />
+
+      <div className="px-40 mt-8">
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/info" element={<Info />} />
+        </Routes>
+      </div>
     </div>
   );
 }
