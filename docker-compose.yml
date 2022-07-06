@@ -1,0 +1,13 @@
+version: "3.7"
+
+services:
+  simple-app:
+    image: liemly98/simple-app:latest
+    build:
+      context: .
+    ports:
+      - 4510:3000
+# networks:
+#   default:
+#     external: true
+#     name: app-network
