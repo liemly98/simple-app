@@ -6,7 +6,7 @@ services:
     build:
       context: .
     ports:
-      - 4510:3000
+      - 3000:3000
 # networks:
 #   default:
 #     external: true
