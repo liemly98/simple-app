@@ -6,8 +6,8 @@ services:
     build:
       context: .
     ports:
-      - 3000:3000
-# networks:
-#   default:
-#     external: true
-#     name: app-network
+      - 4030:3000
+networks:
+  default:
+    external: true
+    name: app-network
