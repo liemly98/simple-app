@@ -5,7 +5,7 @@ function NavigationBar() {
   return (
     <div className="navbar bg-base-100 shadow px-40">
       <div className="flex-1">
-        <a className="btn btn-ghost normal-case text-xl">daisyUI</a>
+        <a className="btn btn-ghost normal-case text-xl">SimpleApp</a>
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal p-0">

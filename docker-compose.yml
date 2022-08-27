@@ -3,6 +3,7 @@ version: "3.7"
 services:
   simple-app:
     image: liemly98/simple-app:latest
+    restart: always
     build:
       context: .
     ports:
