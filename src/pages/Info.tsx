@@ -3,7 +3,7 @@ import React from "react";
 function Info() {
   return (
     <div>
-      <div className="grid grid-cols-4 gap-8">
+      <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8">
         <div className="mockup-code">
           <pre data-prefix="$">
             <code>npm i daisyui</code>

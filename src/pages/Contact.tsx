@@ -2,8 +2,8 @@ import React from "react";
 
 function Contact() {
   return (
-    <div className="flex items-center justify-center">
-      <div className="w-1/2">
+    <div className="flex items-center justify-center ">
+      <div className="w-full mx-auto px-2 sm:px-6 lg:px-8">
         <div className="w-full">
           <div className="form-control w-full">
             <label className="label">

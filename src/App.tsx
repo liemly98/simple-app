@@ -10,7 +10,7 @@ function App() {
     <div>
       <NavigationBar />
 
-      <div className="px-40 mt-8">
+      <div className="px-4 mt-8 xl:px-40">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/contact" element={<Contact />} />

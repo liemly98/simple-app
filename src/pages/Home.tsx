@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <div>
-      <div className="overflow-x-auto w-full">
+      <div className="w-7xl mx-auto px-2 sm:px-6 lg:px-8 overflow-y-auto">
         <table className="table w-full">
           <thead>
             <tr>
