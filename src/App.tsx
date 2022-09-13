@@ -4,6 +4,7 @@ import NavigationBar from "./components/NavigationBar";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
 import Info from "./pages/Info";
+import { Toaster } from "react-hot-toast";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
           <Route path="/info" element={<Info />} />
         </Routes>
       </div>
+
+      <Toaster />
     </div>
   );
 }

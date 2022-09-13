@@ -4,6 +4,14 @@ function Home() {
   return (
     <div>
       <div className="w-7xl mx-auto px-2 sm:px-6 lg:px-8 overflow-y-auto">
+        <div className="text-lg font-bold">Home Page</div>
+        <div className=" font-light mb-4">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus, in
+          magni maxime vitae exercitationem similique corrupti, nisi perferendis
+          ea porro iusto debitis unde molestiae aspernatur sequi. Animi libero
+          quaerat accusamus!
+        </div>
+
         <table className="table w-full">
           <thead>
             <tr>
